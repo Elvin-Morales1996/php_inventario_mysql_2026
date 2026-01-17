@@ -1,0 +1,32 @@
+
+/*
+html, body {
+    height: 100%;
+    width: 100%;
+    margin: 0;
+    padding: 0;
+}
+
+
+.main-container{
+    height: 100vh;                 
+    width: 100%;
+    display: flex;                 
+    justify-content: center;
+    align-items: center;
+    padding: 20px;                
+    box-sizing: border-box;
+}
+
+
+.main-container > .login{
+    width: 100%;
+    max-width: 400px;
+    min-width: 300px;
+}
+
+
+.form-inline{
+    display: inline-flex;
+}
+*/
