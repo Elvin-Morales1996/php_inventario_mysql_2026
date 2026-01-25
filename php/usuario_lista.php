@@ -6,7 +6,7 @@ $tabla = "";
 
 if (isset($busqueda) && $busqueda != "") {
 
-    $consulta_datos = "SELECT * FROM usuario WHERE ((usuario_id!'" .
+    $consulta_datos = "SELECT * FROM usuario WHERE ((usuario_id!='" .
     $_SESSION['id'] . "') AND (usuario_nombre LIKE '%$busqueda%' OR
     usuario_apellido LIKE '%$busqueda%' OR usuario_usuario LIKE
     '%$busqueda%' OR usuario_email LIKE '%$busqueda%')) ORDER by
